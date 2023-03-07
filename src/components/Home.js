@@ -1,7 +1,7 @@
 // import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import avatar from "../assests/img/avatar3.jpeg";
-
+import { IoArrowForward } from "react-icons/io5";
 
 
 export const Home = () => {
@@ -15,7 +15,7 @@ export const Home = () => {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi! My name is Anna`} </h1>
                         <p> I am an extremely motivated aspiring Front End Web Developer. Innovative problem-solver passionate about technology innovations. Curiosity and creativity are my bullets. Enjoy having a trip through my portfolio.</p>
-                        <a href="#about" type="button" className="btn btn-outline-light">Know me better!</a>
+                        <a href="#about" type="button">Know me better! <IoArrowForward size= {25} /></a>
 
 
                     </Col>
