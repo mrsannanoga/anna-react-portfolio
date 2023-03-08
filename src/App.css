@@ -65,10 +65,16 @@ button {
   background-color: transparent;
 }
 
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
 /* NavBar style */
 nav.navbar {
   padding: 18px 0;
-  position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
@@ -123,7 +129,7 @@ span.navbar-text {
 }
 
 .social-icon a:hover img {
-  filter: drop-shadow(0px 0px 10px white)  ;
+  filter: drop-shadow(0px 0px 15px white)  ;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -160,24 +166,16 @@ nav.navbar .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler-icon:after {
 	top: 8px;
-}
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-	transform: rotate(45deg);
-	background-color: #fff;
-	height: 2px;
-}
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
-	transform: translateY(8px) rotate(-45deg);
-	background-color: #fff;
-	height: 2px;
-}
+} 
+
+
 
 /* Home style */
 
 
 .banner {
   margin-top: 0;
-  padding: 200px 0 100px 0;
+  padding: 100px 0 100px 0;
   
 }
 .banner .tagline {
