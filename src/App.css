@@ -231,6 +231,46 @@ nav.navbar .navbar-toggler-icon:after {
   width: 70%;
 }
 
+/* Skills */
+.row {
+  justify-content: space-around;    
+
+}
+.cardContainer {
+  margin-top: 50px !important;
+  margin-bottom: 15px;
+  text-align: center; 
+}
+.skills-section {
+  padding: 100px 20px  ;
+}
+.skills-list {
+  text-align: left;
+  padding-top: 20px;
+}
+.cardSection {
+  border: solid 3px white;
+  box-shadow: inset 0px 0px 5px white, 0 0 15px white;
+
+}
+.cardSection:hover {
+  box-shadow: inset 0px 0px 20px white, 0 0 15px white;
+}
+.card-body {
+
+  padding: 1.25rem;
+}
+
+.sectionHeading {
+  font-size: 50px;
+  font-weight: 600;
+}
+.card-title {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
 
 
 
