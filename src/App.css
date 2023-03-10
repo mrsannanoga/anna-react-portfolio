@@ -270,7 +270,26 @@ nav.navbar .navbar-toggler-icon:after {
   font-weight: 500;
   font-size: 30px;
 }
+.resumeButton {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 25%;
+  text-decoration: none;
+}
 
+.resumeButton:hover {
+  filter: drop-shadow(0px 0px 10px rgb(74, 10, 221));
+  color: linear-gradient(90.21deg, rgba(5, 53, 244, 0.5) -5.91%, rgba(172, 163, 213, 0.5) 111.58%);
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
+}
 
 
 

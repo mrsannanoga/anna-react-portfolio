@@ -1,4 +1,7 @@
 import React from "react";
+import resume from "../assests/resume/anna-noga-resume.pdf"
+import { GoCloudDownload } from "react-icons/go";
+
 
 export const Skills = () => {
     return (
@@ -52,7 +55,20 @@ export const Skills = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row">
+                    <div className="column">
+                        <hr />
+
+
+                        <a className= "resumeButton" href={resume} type="button">DOWNLOAD RESUME <GoCloudDownload size={25} />
+
+
+                        </a>
+                    </div>
+                </div>
             </div>
+
+
         </section>
     )
 }
