@@ -24,8 +24,6 @@ export const NavBar = () => {
                 <Nav className="ms-auto">
                     <Link to="skills"
                         className= 'nav-link navbar-link navbar-link'>Skills</Link>
-                    <Link to="resume" 
-                        className= 'nav-link navbar-link navbar-link'>Resume</Link>
                     <Link to="projects" 
                         className= 'nav-link navbar-link navbar-link'>Projects</Link>
                     <Link to="contact"
