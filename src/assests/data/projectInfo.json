@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Api Weather Dashboard",
+        "deployedUrl":"https://mrsannanoga.github.io/api-weather-dashboard/",
+        "gitUrl":"https://github.com/mrsannanoga/api-weather-dashboard",
+        "id":"1"
+    },
+
+    {
+        "title": "Bootstrap Portfolio",
+        "deployedUrl":"https://mrsannanoga.github.io/bootstrap-portfolio/",
+        "gitUrl":"https://github.com/mrsannanoga/bootstrap-portfolio",
+        "id":"2"
+    },
+
+    {
+        "title": "OOP Team Profile Generator",
+        "deployedUrl":"https://github.com/mrsannanoga/OOP-team-profile-generator/blob/main/output/team.html",
+        "gitUrl":"https://github.com/mrsannanoga/OOP-team-profile-generator",
+        "id":"3"
+    },
+
+    {
+        "title": "Readme Generator Node.js",
+        "deployedUrl":"https://github.com/mrsannanoga/readme-generator-node.js",
+        "gitUrl":"https://github.com/mrsannanoga/readme-generator-node.js",
+        "id":"4"
+    },
+
+    {
+        "title": "Work Day Planner",
+        "deployedUrl":"https://mrsannanoga.github.io/work-day-planner/",
+        "gitUrl":"https://github.com/mrsannanoga/work-day-planner",
+        "id":"5"
+    },
+
+    {
+        "title": "Tasty Facts",
+        "deployedUrl":"https://vaselisk999.github.io/tasty-facts/",
+        "gitUrl":"https://github.com/vaselisk999/tasty-facts",
+        "id":"6"
+    }
+]    

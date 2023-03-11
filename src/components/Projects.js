@@ -1,7 +1,15 @@
-
+import ProjectInfo from "../assests/data/projectInfo.json";
+import ProjectCard from "../components/ProjectCard";
 import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+
+import apiWeather from "../assests/img/projects/api-weather.png";
+import bootstrapPorfolio from "../assests/img/projects/bootstrap-portfolio.png";
+import teamGenerator from "../assests/img/projects/team-generator.png";
+import readmeGenerator from "../assests/img/projects/readme-generator.png";
+import workDay from "../assests/img/projects/day-planner.png";
+import tastyfacts from "../assests/img/projects/tasty-facts.png";
 
 export const Projects = () => {
   const responsive = {
@@ -23,37 +31,41 @@ export const Projects = () => {
     }
   };
 
+  const images = {
+    "1": apiWeather,
+    "2": bootstrapPorfolio,
+    "3": teamGenerator,
+    "4": readmeGenerator,
+    "5": workDay,
+    "6": tastyfacts
+  }
+
   return (
     <section className="[projects-section]" id="projects">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2 className="sectionHeading">Projects</h2>
-                        <p>These are my recent individual and group projects I am very happy about. Enjoy checking them out!</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={''} alt="" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={''} alt="" />
-                                <h5>Brand Identity</h5>
-                            </div>
-                            <div className="item">
-                                <img src={''} alt="" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={''} alt="" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
-                    </div>
-                </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="skill-bx wow zoomIn">
+              <h2 className="sectionHeading">Projects</h2>
+              <p>These are my recent individual and group projects I am very happy about. Enjoy checking them out!</p>
+              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+
+                {ProjectInfo.map((info) => (
+                  <ProjectCard
+                    // key={info.title}
+                    title={info.title}
+                    deployedUrl={info.deployedUrl}
+                    gitUrl={info.gitUrl}
+                    image={images[info.id]}
+                  />))}
+
+
+              </Carousel>
             </div>
+          </div>
         </div>
-        {/* <img className="background-image-left" src={''} alt="" /> */}
+      </div>
+      {/* <img className="background-image-left" src={''} alt="" /> */}
     </section>
   )
 }

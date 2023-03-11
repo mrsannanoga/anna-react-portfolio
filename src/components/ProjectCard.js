@@ -1,21 +1,23 @@
-import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
-export const Projects = () => {
+const ProjectCard = ({ title, deployedUrl, gitUrl, image }) => {
     return (
-     
-      
-      
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Button variant="primary">GitHub</Button>
-              <Button variant="primary">Deployment</Button>
+
+        <Card className='projectBody' style={{ width: '18rem' }}>
+            <Card.Img nameClass="projectImage" variant="top" src={image} alt={title} />
+            <Card.Body className='cardBody'>
+                <Card.Title className='projectTitle'>{title}</Card.Title>
+                <div className="cardButtons">
+                    <Button href={gitUrl} variant="primary">GitHub</Button>
+                    <Button href={deployedUrl} variant="primary">Deployment</Button>
+                </div>
+
             </Card.Body>
-          </Card>
-        );
-      
-}
+        </Card>
+    );
+
+};
+
+export default ProjectCard;
