@@ -96,7 +96,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link:hover {
   -webkit-transition:.5s;
   transition:.5s;
 }
-.navbar-brand {
+.navbar-brand a{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -233,7 +233,8 @@ nav.navbar .navbar-toggler-icon:after {
 
 /* Skills */
 .row {
-  justify-content: space-around;    
+  justify-content: space-evenly;   
+  margin: none; 
 
 }
 .cardContainer {
@@ -242,8 +243,9 @@ nav.navbar .navbar-toggler-icon:after {
   text-align: center; 
 }
 .skills-section .projects-section {
-  padding: 100px 20px  ;
+  padding-top: 100px  ;
 }
+
 .skills-list {
   text-align: left;
   padding-top: 20px;
@@ -299,19 +301,20 @@ nav.navbar .navbar-toggler-icon:after {
 
 }
 
-.projectImage {
-  object-fit: cover;
+.card-img {
+  border-top-left-radius: none;
+  border-top-right-radius: none;
 }
-
 
 .card {
   background-color: transparent !important;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
 }
 
-.projectTitle:hover {
-  filter: drop-shadow(0px 0px 10px white);
 
-}
+
 
 
 .App {
