@@ -52,7 +52,7 @@ export const Projects = () => {
           ease: [0, 0.71, 0.2, 1.01]
         }}>
 
-    <section className="[projects-section]" id="projects">
+    <section className="project-section" id="projects">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -63,7 +63,7 @@ export const Projects = () => {
 
                 {ProjectInfo.map((info) => (
                   <ProjectCard
-                    // key={info.title}
+                    key={info.title}
                     title={info.title}
                     deployedUrl={info.deployedUrl}
                     gitUrl={info.gitUrl}
