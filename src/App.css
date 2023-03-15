@@ -40,6 +40,7 @@ body {
   background-repeat: no-repeat;
   color: white !important;
   font-family: 'Centra', sans-serif !important;
+  height: auto;
   
 }
 h1, h2, h3, h4, h5, h6 {
@@ -63,6 +64,9 @@ a:hover {
 button {
   border: 0;
   background-color: transparent;
+}
+button:hover{
+  text-decoration: none;
 }
 
 @media (min-width:1700px) {
