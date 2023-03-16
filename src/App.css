@@ -23,11 +23,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-attachment: fixed;;
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  height: 100%;
 }
 
 body {
@@ -35,14 +35,12 @@ body {
   overflow-x: hidden;
   position: relative;
   background-image: url('./assests/img/stars.jpg');
-  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white !important;
   font-family: 'Centra', sans-serif !important;
-  height: auto;
-  
 }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -69,11 +67,24 @@ button:hover{
   text-decoration: none;
 }
 
+
 @media (min-width:1700px) {
-	main .container {
+	.container {
 		max-width: 100%;
 		padding: 0 150px;
+    max-height: 100%;
 	}
+}
+
+@media (max-width:997px) {
+	.container {
+		max-width: 100%;
+		padding: 0 150px;
+    max-height: 100%;
+	}
+  .banner{
+    margin-top:100px;
+  }
 }
 
 /* NavBar style */
@@ -179,7 +190,6 @@ nav.navbar .navbar-toggler-icon:after {
 
 .banner {
   margin-top: 0;
-  padding-top: 100px;
   
 }
 .banner .tagline {
@@ -245,9 +255,6 @@ nav.navbar .navbar-toggler-icon:after {
 .cardContainer {
   margin-bottom: 15px;
   text-align: center; 
-}
-.skills-section .projects-section {
-  margin-top: 150px  ;
 }
 
 .skills-list {
@@ -371,12 +378,18 @@ nav.navbar .navbar-toggler-icon:after {
 
 }
 
+.box {
+height: 100%;
+display: flex;
+align-content: center;
+flex-wrap: wrap;
+}
 
 
 
 .App {
   text-align: center;
-  
+  height: 45rem;
 }
 
 .App-logo {
@@ -384,11 +397,6 @@ nav.navbar .navbar-toggler-icon:after {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -405,11 +413,11 @@ nav.navbar .navbar-toggler-icon:after {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

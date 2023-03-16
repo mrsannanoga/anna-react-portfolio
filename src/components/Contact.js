@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from '@emailjs/browser';
+import { Container } from "react-bootstrap";
 
 
 export const Contact = () => {
@@ -28,8 +29,7 @@ export const Contact = () => {
         ease: [0, 0.71, 0.2, 1.01]
       }}>
 
-      <section id="projects">
-        <div className="container">
+        <Container className="container">
           <div className="row">
             <div className="col-12">
               <div className="">
@@ -74,8 +74,8 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </Container>
+      
     </motion.div>
   )
 }

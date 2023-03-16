@@ -2,6 +2,7 @@ import React from "react";
 import resume from "../assests/resume/anna-noga-resume.pdf"
 import { GoCloudDownload } from "react-icons/go";
 import { motion } from "framer-motion";
+import { Container } from "react-bootstrap";
 
 
 export const Skills = () => {
@@ -18,7 +19,7 @@ export const Skills = () => {
       >
 
 
-            <section className="skills-section text-center" id="skills">
+            <Container className="text-center" id="skills">
                 <h2 className="sectionHeading text-center"> Skills</h2>
                 <div className="container-fluid">
                     <div className="row">
@@ -82,7 +83,7 @@ export const Skills = () => {
                 </div>
 
 
-            </section>
+            </Container>
         </motion.div>
     )
 }

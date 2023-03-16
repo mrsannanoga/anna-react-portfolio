@@ -17,8 +17,8 @@ export const Home = () => {
           delay: 0.5,
           ease: [0, 0.71, 0.2, 1.01]
         }}>
-            <section className="banner" id="home">
-                <Container>
+            
+                <Container className="banner" id="home">
                     <Row className="aligh-items-center">
                         <Col xs={12} md={6} xl={7}>
 
@@ -39,7 +39,7 @@ export const Home = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+      
         </motion.div>
     )
 }

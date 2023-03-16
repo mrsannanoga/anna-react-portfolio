@@ -11,6 +11,7 @@ import teamGenerator from "../assests/img/projects/team-generator.png";
 import readmeGenerator from "../assests/img/projects/readme-generator.png";
 import workDay from "../assests/img/projects/day-planner.png";
 import tastyfacts from "../assests/img/projects/tasty-facts.png";
+import { Container } from "react-bootstrap";
 
 export const Projects = () => {
   const responsive = {
@@ -52,7 +53,7 @@ export const Projects = () => {
           ease: [0, 0.71, 0.2, 1.01]
         }}>
 
-    <section className="project-section" id="projects">
+    <Container className="" id="projects">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -76,7 +77,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Container>
     </motion.div>
   )
 }
