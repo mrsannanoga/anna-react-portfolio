@@ -213,7 +213,7 @@ nav.navbar .navbar-toggler-icon:after {
   line-height: 1.5em;
   width: 96%;
 }
-.banner a {
+.banner button {
   color: #fff;
   font-weight: 500;
   font-size: 20px;
@@ -223,8 +223,7 @@ nav.navbar .navbar-toggler-icon:after {
   text-decoration: none;
 }
 .banner a:hover {
-  filter: drop-shadow(0px 0px 10px rgb(74, 10, 221));
-  color: linear-gradient(90.21deg, rgba(5, 53, 244, 0.5) -5.91%, rgba(172, 163, 213, 0.5) 111.58%);
+  filter: drop-shadow(30px 30px 10px rgb(74, 10, 221));
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -243,6 +242,8 @@ nav.navbar .navbar-toggler-icon:after {
   border-radius: var(--bs-border-radius)!important;
   width: 70%;
 }
+
+
 
 /* Skills */
 .row {
