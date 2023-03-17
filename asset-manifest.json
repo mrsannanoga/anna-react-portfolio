@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anna-react-portfolio/static/css/main.5b181a7a.css",
-    "main.js": "/anna-react-portfolio/static/js/main.0d2f59cd.js",
+    "main.css": "/anna-react-portfolio/static/css/main.c0187cd2.css",
+    "main.js": "/anna-react-portfolio/static/js/main.0ffa3b9d.js",
     "static/js/787.fa846a14.chunk.js": "/anna-react-portfolio/static/js/787.fa846a14.chunk.js",
     "static/media/stars.jpg": "/anna-react-portfolio/static/media/stars.c44ed04c57064dd1b4d5.jpg",
     "static/media/avatar3.jpeg": "/anna-react-portfolio/static/media/avatar3.864017cd69f8515a2547.jpeg",
@@ -22,12 +22,12 @@
     "static/media/github.svg": "/anna-react-portfolio/static/media/github.d9858c55ad3154b2eac6fc9893d7111c.svg",
     "static/media/linkedin.svg": "/anna-react-portfolio/static/media/linkedin.a9ba9b803a6009d3a44fff622fcc9818.svg",
     "index.html": "/anna-react-portfolio/index.html",
-    "main.5b181a7a.css.map": "/anna-react-portfolio/static/css/main.5b181a7a.css.map",
-    "main.0d2f59cd.js.map": "/anna-react-portfolio/static/js/main.0d2f59cd.js.map",
+    "main.c0187cd2.css.map": "/anna-react-portfolio/static/css/main.c0187cd2.css.map",
+    "main.0ffa3b9d.js.map": "/anna-react-portfolio/static/js/main.0ffa3b9d.js.map",
     "787.fa846a14.chunk.js.map": "/anna-react-portfolio/static/js/787.fa846a14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b181a7a.css",
-    "static/js/main.0d2f59cd.js"
+    "static/css/main.c0187cd2.css",
+    "static/js/main.0ffa3b9d.js"
   ]
 }
