@@ -21,7 +21,7 @@ export const Foot = () => {
     <Footer className='text-center text-white '>
       <Container className='container-fluid p-4'>
         <div className='text-center'>
-        © 2023 Copyright: All rights reserved.
+        © 2023 Made with LOVE by Anna Noga.
         </div>
         </Container>
     </Footer>
