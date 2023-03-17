@@ -1,7 +1,7 @@
 {
   "name": "anna-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/mrsannanoga/anna-react-portfolio",
+  "homepage": "https://mrsannanoga.github.io/anna-react-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -11,6 +11,7 @@
     "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.2.4",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-bootstrap-icons": "^1.10.2",
