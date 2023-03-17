@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/anna-react-portfolio/static/css/main.5b181a7a.css",
+    "main.js": "/anna-react-portfolio/static/js/main.0d2f59cd.js",
+    "static/js/787.fa846a14.chunk.js": "/anna-react-portfolio/static/js/787.fa846a14.chunk.js",
+    "static/media/stars.jpg": "/anna-react-portfolio/static/media/stars.c44ed04c57064dd1b4d5.jpg",
+    "static/media/avatar3.jpeg": "/anna-react-portfolio/static/media/avatar3.864017cd69f8515a2547.jpeg",
+    "static/media/bootstrap-portfolio.png": "/anna-react-portfolio/static/media/bootstrap-portfolio.6c0ea180611e16a011dd.png",
+    "static/media/team-generator.png": "/anna-react-portfolio/static/media/team-generator.8ccc61712e015011ef5f.png",
+    "static/media/api-weather.png": "/anna-react-portfolio/static/media/api-weather.248521f507274ec141f4.png",
+    "static/media/anna-noga-resume.pdf": "/anna-react-portfolio/static/media/anna-noga-resume.6da677d8a582e56b4f2d.pdf",
+    "static/media/tasty-facts.png": "/anna-react-portfolio/static/media/tasty-facts.780d51fd33f30a984728.png",
+    "static/media/CentraNo2-Bold.ttf": "/anna-react-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/anna-react-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/anna-react-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/readme-generator.png": "/anna-react-portfolio/static/media/readme-generator.d291d9b43669e4e54019.png",
+    "static/media/day-planner.png": "/anna-react-portfolio/static/media/day-planner.f9da06eb597485899831.png",
+    "static/media/revicons.eot": "/anna-react-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/anna-react-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/logo.jpeg": "/anna-react-portfolio/static/media/logo.c361fc08e972c80c9500.jpeg",
+    "static/media/revicons.woff": "/anna-react-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/github.svg": "/anna-react-portfolio/static/media/github.d9858c55ad3154b2eac6fc9893d7111c.svg",
+    "static/media/linkedin.svg": "/anna-react-portfolio/static/media/linkedin.a9ba9b803a6009d3a44fff622fcc9818.svg",
+    "index.html": "/anna-react-portfolio/index.html",
+    "main.5b181a7a.css.map": "/anna-react-portfolio/static/css/main.5b181a7a.css.map",
+    "main.0d2f59cd.js.map": "/anna-react-portfolio/static/js/main.0d2f59cd.js.map",
+    "787.fa846a14.chunk.js.map": "/anna-react-portfolio/static/js/787.fa846a14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b181a7a.css",
+    "static/js/main.0d2f59cd.js"
+  ]
+}
