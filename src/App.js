@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        
+       
           <NavBar />
 
           <Routes>
@@ -24,12 +24,12 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
           </Routes>
 
-        
 
+        
       </Router>
-     <Foot /> 
+      <Foot />
     </div>
-    
+
 
 
 
