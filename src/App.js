@@ -11,11 +11,11 @@ import { Foot } from "./components/Footer"
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
-       
+        <div className='App'>
           <NavBar />
-
+          
           <Routes>
 
             <Route path="/" element={<Home />} />
@@ -23,11 +23,12 @@ function App() {
             <Route path="/Projects/" element={<Projects />} />
             <Route path="/Contact" element={<Contact />} />
           </Routes>
+           
+          </div>
+         <Foot />
 
-
-        
       </Router>
-      <Foot />
+      
     </div>
 
 

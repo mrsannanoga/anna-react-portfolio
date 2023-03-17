@@ -5,7 +5,6 @@ import { Container} from 'react-bootstrap'
 
 const Footer = styled.div`
 background: linear-gradient(90.21deg, rgba(5, 53, 244, 0.5) -5.91%, rgba(172, 163, 213, 0.5) 111.58%);
-position: absolute;
 width:100%;
 `
 // const Container = styled.div`

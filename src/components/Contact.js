@@ -20,7 +20,7 @@ export const Contact = () => {
   };
   return (
     <motion.div
-      className="box"
+      
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{
@@ -29,7 +29,7 @@ export const Contact = () => {
         ease: [0, 0.71, 0.2, 1.01]
       }}>
 
-        <Container className="container">
+        <Container className=" container" id="contacts">
           <div className="row">
             <div className="col-12">
               <div className="">
