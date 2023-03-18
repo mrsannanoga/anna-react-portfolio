@@ -39,7 +39,7 @@ N\A
       
 ## Demo
 
-[<img src="/Users/annanoga/bootcamp/challenge-11-due-7.03/anna-react-portfolio/src/assests/img/screenshot.png">](https://youtu.be/Yh3eu-UWsm8 "React Portfolio")
+[<img src="./src/assests/img/screenshot.png">](https://youtu.be/Yh3eu-UWsm8 "React Portfolio")
 
 ## Contact
 You can reach me on: </br>
