@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/anna-react-portfolio/static/css/main.b4560dd7.css",
-    "main.js": "/anna-react-portfolio/static/js/main.74507357.js",
+    "main.css": "/anna-react-portfolio/static/css/main.c00fb5b0.css",
+    "main.js": "/anna-react-portfolio/static/js/main.acb49969.js",
     "static/js/787.fa846a14.chunk.js": "/anna-react-portfolio/static/js/787.fa846a14.chunk.js",
+    "static/media/mn-records.png": "/anna-react-portfolio/static/media/mn-records.21210f71caf736337afa.png",
     "static/media/stars.jpg": "/anna-react-portfolio/static/media/stars.c44ed04c57064dd1b4d5.jpg",
     "static/media/avatar3.jpeg": "/anna-react-portfolio/static/media/avatar3.864017cd69f8515a2547.jpeg",
     "static/media/bootstrap-portfolio.png": "/anna-react-portfolio/static/media/bootstrap-portfolio.6c0ea180611e16a011dd.png",
@@ -22,12 +23,12 @@
     "static/media/github.svg": "/anna-react-portfolio/static/media/github.d9858c55ad3154b2eac6fc9893d7111c.svg",
     "static/media/linkedin.svg": "/anna-react-portfolio/static/media/linkedin.a9ba9b803a6009d3a44fff622fcc9818.svg",
     "index.html": "/anna-react-portfolio/index.html",
-    "main.b4560dd7.css.map": "/anna-react-portfolio/static/css/main.b4560dd7.css.map",
-    "main.74507357.js.map": "/anna-react-portfolio/static/js/main.74507357.js.map",
+    "main.c00fb5b0.css.map": "/anna-react-portfolio/static/css/main.c00fb5b0.css.map",
+    "main.acb49969.js.map": "/anna-react-portfolio/static/js/main.acb49969.js.map",
     "787.fa846a14.chunk.js.map": "/anna-react-portfolio/static/js/787.fa846a14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4560dd7.css",
-    "static/js/main.74507357.js"
+    "static/css/main.c00fb5b0.css",
+    "static/js/main.acb49969.js"
   ]
 }
