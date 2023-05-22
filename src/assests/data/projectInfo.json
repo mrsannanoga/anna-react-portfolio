@@ -39,5 +39,12 @@
         "deployedUrl":"https://vaselisk999.github.io/tasty-facts/",
         "gitUrl":"https://github.com/vaselisk999/tasty-facts",
         "id":"6"
+    },
+
+    {
+        "title": "MN RECORDS",
+        "deployedUrl":"https://mrsannanoga.github.io/mn-records/",
+        "gitUrl":"https://github.com/mrsannanoga/mn-records",
+        "id":"7"
     }
 ]    

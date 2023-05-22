@@ -11,6 +11,7 @@ import teamGenerator from "../assests/img/projects/team-generator.png";
 import readmeGenerator from "../assests/img/projects/readme-generator.png";
 import workDay from "../assests/img/projects/day-planner.png";
 import tastyfacts from "../assests/img/projects/tasty-facts.png";
+import mnrecords from "../assests/img/projects/mn-records.png";
 import { Container } from "react-bootstrap";
 
 export const Projects = () => {
@@ -39,7 +40,8 @@ export const Projects = () => {
     "3": teamGenerator,
     "4": readmeGenerator,
     "5": workDay,
-    "6": tastyfacts
+    "6": tastyfacts,
+    "7": mnrecords
   }
 
   return (
@@ -59,7 +61,7 @@ export const Projects = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2 className="sectionHeading">Projects</h2>
-              <p>These are my recent individual and group projects I am very happy about. Enjoy checking them out!</p>
+              <p>Those are my recent individual and group projects I am very happy about. Enjoy checking them out!</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
 
                 {ProjectInfo.map((info) => (

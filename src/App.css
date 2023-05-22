@@ -239,7 +239,7 @@ nav.navbar .navbar-toggler-icon:after {
 }
 .banner img {
   box-shadow:0px 0px 10px white;
-  border-radius: var(--bs-border-radius)!important;
+  /* border-radius: var(--bs-border-radius)!important; */
   width: 70%;
 }
 
